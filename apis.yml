@@ -1,7 +1,13 @@
 aid: 28-labs
 name: 28 labs
-description: 28 labs is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  28labs Inc. operates She's Well (sheswell.co), a consumer fertility-care platform
+  that bundles egg freezing, fertility testing, IVF coordination, clinic visits, labs,
+  medications, and concierge nurse support into a single transparent subscription plan
+  starting at $249/month over up to 60 months. The company was surfaced as a portfolio
+  company of 500 Global and added to the API Evangelist network. It is a business-to-consumer
+  digital-health service with no public developer platform, API, SDKs, or developer
+  documentation at this time; this profile captures its identity and domain-security posture.
 url: https://raw.githubusercontent.com/api-evangelist/28-labs/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +15,29 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
 modified: '2026-07-17'
+image: https://sheswell.co/og.jpg
 tags:
 - Company
+- Fertility
+- Healthcare
+- Digital Health
+- Femtech
+- Subscription
+- Consumer
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +47,20 @@ maintainers:
 common:
 - type: Website
   url: https://sheswell.co
+- type: Pricing
+  url: https://sheswell.co/plans
+- type: SignUp
+  url: https://sheswell.co/get-started
+- type: TermsOfService
+  url: https://sheswell.co/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://sheswell.co/privacy-policy
+- type: Support
+  url: mailto:info@sheswell.app
+- type: DomainSecurity
+  url: security/28-labs-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
